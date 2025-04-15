@@ -1,4 +1,21 @@
 # BackMeUp
+A **cross-platform backup application** written in Rust, designed to run seamlessly in the background.
+
+This tool allows users to define custom backup rules via a simple `config.toml` file, and uniquely supports **mouse gestures** to trigger backups — providing a smooth and non-intrusive experience.
+
+## ✨ Features
+
+- ⚙️ Written in Rust for safety and performance
+- 👻 Runs in the background (as a service on Windows, daemon on Unix-based systems)
+- 🖱️ Supports backup activation via mouse gestures
+- 📝 Fully configurable via `config.toml`
+- 🖥️ Cross-platform: works on **Linux**, **macOS**, and **Windows**
+- 📋 Logging and error reporting for traceability
+
+---
+
+This project was developed as part of an academic and personal exploration of **system-level programming**, **event-driven interaction**, and **cross-platform service management** using Rust.\
+Thanks to @LorenzoRicci26 and @villanovafrancesca for their contributions.
 
 ## Prerequisites
 
