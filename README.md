@@ -1,4 +1,7 @@
 # BackMeUp
+
+![Screenshot](./assets/Screenshot1.png)
+
 A **cross-platform backup application** written in Rust, designed to run seamlessly in the background.
 
 This tool allows users to define custom backup rules via a simple `config.toml` file, and uniquely supports **mouse gestures** to trigger backups — providing a smooth and non-intrusive experience.
